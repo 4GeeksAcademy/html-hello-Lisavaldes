@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/c51821c311.js" crossorigin="anonymous"></script>
+    <title>Payment for example</title>
+</head>
+<body>
+    <div id="card">
+        <div id="header">
+           <p> Payment form example</p> 
+        </div>
+        <div id="payment-body">
+            <div class="alert">
+                <p> Some fields are missing</p>
+            </div>
+            <div class="account">
+            <fieldset class="cardnumber">
+                <legend> Card #</legend>
+                <input type="text" placeholder="xxxxxxxxxxxxxxx">
+            </fieldset>
+            <fieldset class="CVC">
+                <legend> CVC #</legend>
+                <input type="text" placeholder="0000">
+            </fieldset>
+           <fieldset>
+            <legend> Amount</legend>
+            <lebel> $</lebel>
+            <input type="number" placeholder="Amount">
+           </fieldset>
+        </div>
+        <div class="name">
+            <fieldset class="first">
+                <legend> First Name</legend>
+                <input type="text">
+            </fieldset>
+            <fieldset class="last">
+                <legend>Last Name</legend>
+                <input type="text">
+            </fieldset>
+        </div>
+        <div class="city">
+            <fieldset class="fCity">
+                <legend>City</legend>
+                <input type="text">
+            </fieldset>
+           <fieldset>
+            <legend> State</legend>
+            <select name="state">
+                <option value=""> Pick a state</option>
+                    <option value="FLorida"> FLorida</option>
+                    <option value="California">California</option>
+                    <option value="Texas"> Texas</option>
+            </select>
+           </fieldset>
+
+           <fieldset class="Postal">
+            <legend> Postal Code </legend>
+            <input type="text">
+           </fieldset>
+           
+        </div>
+        <div class="last-input">
+            <fieldset>
+                <legend>We accept:</legend>
+                <form class="card">
+                <input type="radio" id="visa">
+                <label for="visa">
+                    <i class="fa-brands fa-cc-visa"></i>
+                </label>
+                <input type="radio" id="mastercard">
+                <label for="mastercard" > <i class="fa-brands fa-cc-mastercard"></i></label>
+                <input type="radio" id="americanE">
+                <label for="americanE">
+                    <i class="fa-brands fa-cc-amex"></i>
+                </label>
+                <input type="radio" id="discover" >
+                <label for="discover">
+                    <i class="fa-brands fa-cc-discover"></i>
+                </label>
+            </form>
+            </fieldset>
+            <div class="message"
+            <fieldset>
+                <legend> Message</legend>
+                <input type="text">
+            </fieldset>
+            <p> Add any notes here</p>
+        </div>
+        </div>
+        <div id="footer">
+            <form>
+            <input class= "cancel" type="button" value="Cancel">
+            <input class="send" type="button" value="Send">
+        </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+ /*{
+	border: 1px dashed red;
+	min-height: 10px;
+ }*/
+
+ #card{
+    border-radius: 1%;
+    border:1px solid lightgray
+
+ }
+
+ #header p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    font-size: x-large;
+    margin-top: 0%;
+    height: 40px;
+    padding-top: 10px;
+ }
+
+ .alert p{
+    background-color: rgb(245, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 10px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .account,.name, .city,.last-input {
+    display:flex;
+ }
+
+ .cardnumber input{
+    width: 180px;
+ }
+ 
+.name input{
+    width: 260px;
+}
+
+.fCity input{
+    width: 260px;
+}
+
+select{
+    width: 120px;
+}
+
+.Postal input{
+ width: 110px;
+}
+ fieldset{
+    border:none
+ }
+
+ .card{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .message {
+    margin-left:100px
+ }
+ .message input {
+    height: 50px;
+    width: 260px;
+ }
+ 
+ .message p{
+    margin-top: 0%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #footer {
+    background-color: lightgrey; 
+     
+ }
+
+ #footer form{
+   margin-left: 460px;
+ }
+ .cancel{
+    background-color: rgb(150, 148, 148);
+border:none;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+height: 25px;
+ }
+ .send{
+    background-color:blue;
+    border:none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+ }
+
+ legend{
+    font-family: Arial, Helvetica, sans-serif;
+ }
